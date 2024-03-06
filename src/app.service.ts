@@ -191,7 +191,6 @@ export class AppService {
 
     const status = await agent.checkCredentialStatus({
       credential: verifiableCredential,
-      didDocumentOverride: { id: identifier.did },
     });
     console.log(status);
 
